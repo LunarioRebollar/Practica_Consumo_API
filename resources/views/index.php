@@ -27,9 +27,12 @@
             <td>Vue.js  Ejemplo de uso del API</td>
         <div v-if="responseAvailable == true">
             <hr>
-                <p>
-                    <i>{{result}}</i>
-                </p>
+                <table width="80%" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td width=”80%” height=”70″ border=4><img src="../img/large.jpg" width="200" height="200"></td>
+                        <td width=”20%” height=”70″ border=4><p>{{result}}<p></td>
+                    </tr>
+                </table>
             </hr>
         </div>
         </tr>
